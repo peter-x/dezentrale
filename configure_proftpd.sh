@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat > /etc/proftpd.conf <<EOF
+cat > /etc/proftpd/proftpd.conf <<EOF
 DefaultRoot                     /media/ext/public/
 
 Include /etc/proftpd/modules.conf
